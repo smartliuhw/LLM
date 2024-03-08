@@ -1,0 +1,17 @@
+Starting Qwen on port 10086
+The repository for /home/ubuntu/AI_exhibition/models/Qwen-7B-hf contains custom code which must be executed to correctly load the model. You can inspect the repository content at https://hf.co//home/ubuntu/AI_exhibition/models/Qwen-7B-hf.
+You can avoid this prompt in future by passing the argument `trust_remote_code=True`.
+
+Do you wish to run the custom code? [y/N] The repository for /home/ubuntu/AI_exhibition/models/Qwen-7B-hf contains custom code which must be executed to correctly load the model. You can inspect the repository content at https://hf.co//home/ubuntu/AI_exhibition/models/Qwen-7B-hf.
+You can avoid this prompt in future by passing the argument `trust_remote_code=True`.
+
+Do you wish to run the custom code? [y/N] False True False
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:22<00:22, 22.11s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:33<00:00, 15.66s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:33<00:00, 16.63s/it]
+语言模型服务启动成功！
+ * Serving Flask app 'llm_online_service'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:10086
+ * Running on http://10.131.160.120:10086
+[33mPress CTRL+C to quit[0m
