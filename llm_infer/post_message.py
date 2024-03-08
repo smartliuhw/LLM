@@ -21,7 +21,7 @@ def init_history(model_type):
     return history
 
 
-url = "http://10.134.102.68:10086/chat"
+url = "http://10.134.102.61:10086/chat"
 print('Type \"clean\" to clean the chat history\nType \"exit\" to exit the program')
 model_type = check_model()
 history = init_history(model_type)
